@@ -5,7 +5,7 @@ progress_bar_animate = function(){
 								snowstorm();
 								$("#body-home").fadeOut(5000).promise().done(function() {
 									$("#body-home").hide().delay(1000).promise().done(function() {
-									  window.location.pathname = '/cookies/guide.html'
+									  window.location.pathname = '/guide.html'
 										});
 									});
 
