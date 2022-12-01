@@ -1,18 +1,335 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hazel's Confections"/>
-    <title>The Cookies</title>
-    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hazel's Confections</title>
     <!-- Bulma Version 0.9.0-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="css/showcase.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="media/favicon.ico" />
+  </head>
+
+  <body>
+    <!-- Begin Scroll Up Button -->
+
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me">
+                  The Confections
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#fun-facts">
+                  Fun Facts
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#past-years">
+                  Past Years
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div id = "header-text" class="container has-text-centered" style="margin-left: 33%;">
+            <!-- <h1 class="subtitle">Happy Holidays! I'm</h1> -->
+            <h2 class="title">Hazel's Confections</h2>
+            <h1 class="subtitle">Happy Holidays &#10054; 2022</h1>  
+            <!-- can use profession class if you want to make it caps -->    
+          </div>
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">The Confections</a>
+                  </li>
+                  <li>
+                    <a href="#fun-facts">Fun Facts</a>
+                  </li>
+                  <li>
+                    <a href="#past-years">Past Years</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">The Confections</h1>
+
+            <h2 class="subtitle has-text-centered">This year, Hazel delivered you one of two holiday loaves.</h2>
+            <br />
+          </div>
+          <div class="columns is-multiline">
+            <!-- FIRST ITEM -->
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger">
+                <strong>Rich Holiday Fruitcake</strong>
+              </p>
+              <br />
+              <p>
+                Showcase was built from the ground up with Bulma to be fast and
+                responsive out of the box with all source files well documented
+                for easy to customization. The Showcase template gives you a
+                personal space to share what you are all about as a creative
+                designer, developer, photographer, and more!
+              </p>
+              <br />
+              <div class="is-divider"></div>
+              <div class="has-text-centered">
+                <button class="button is-small is-static">Gluten</button>
+                <button class="button is-small is-static">Nuts</button>
+                <button class="button is-small is-static">Alcohol</button>
+                </div>
+            </div>
+            
+            <div class="column is-6 right-image " data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="media/2022/fruitcake.jpg"
+                alt=""
+              />
+            </div>
+
+            <!-- SECOND ITEM -->
+
+            <div
+                class="column is-6 has-vertically-aligned-content"
+                data-aos="fade-right"
+              >
+                <p class="is-larger">
+                  <strong>Sticky Gingerbread</strong>
+                </p>
+                <br />
+                <p>
+                  This is Claudia Fleming's famous stout ginger cake. Famously served at Gramercy Tavern in New York City each holiday season during the restaurant's heyday, this cake can be served with whipped cream...or just eaten by the forkful.
+                </p>
+                <br />
+                <div class="is-divider"></div>
+                <div class="has-text-centered">
+                    <button class="button is-small is-static">Gluten</button>
+                    <button class="button is-small is-static">Alcohol</button>
+                </div>
+              </div>
+
+              <div class="column is-6 right-image " data-aos="fade-left">
+                <img
+                  class="is-rounded"
+                  src="media/2022/gingerbread.jpg"
+                  alt=""
+                />
+              </div>
+              
+            
+            </div>
+
+           
+
+          </div>
+        </div>
+
+      <!-- End About Me Content -->
+ 
+      <!-- Begin Services Content -->
+      <div class="section-color services" id="fun-facts">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div
+              class="column is-12 about-me"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1 class="title has-text-centered section-title">Fun Facts</h1>
+
+              <br />
+            </div>
+
+            <div class="columns is-12">
+
+                <div class="column is-4 left-image " data-aos="fade-right">
+                    <img
+                      class="is-rounded"
+                      src="media/IMG_0878.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="columns is-multiline">
+
+                    <div class="column is-1"></div>
+
+                  <div
+                        class="column is-4 has-text-centered"
+                        data-aos="fade-in"
+                        data-aos-easing="linear"
+                    >
+                        <i class="fad fa-egg fa-3x"></i>
+                        <hr />
+                        <h2>
+                        120 eggs are shockingly compact in the fridge!
+                        </h2>
+                    </div>
+
+                    <div class="column is-2"></div>
+
+                    <div
+                        class="column is-4 has-text-centered"
+                        data-aos="fade-in"
+                        data-aos-easing="linear"    
+                    >
+                        <i class="fas fa-box fa-3x"></i>
+                        <hr />
+                        <h2>
+                        We've been stockpiling shipping boxes for months. Hazel only chewed two...
+                        </h2>
+                    </div>
+                    <div class="column is-1"></div>
+                    <div class="column is-1"></div>
+
+                    <div
+                        class="column is-4 has-text-centered"
+                        data-aos="fade-in"
+                        data-aos-easing="linear"   
+                    >
+                        <i class="fas fa-lights-holiday fa-3x"></i>
+                        <hr />
+                        <h2>
+                        This photo required lots of cheese and resulted in a <em> very </em> disgruntled Hazel.
+                        </h2>
+                    </div>
+
+                    <div class="column is-2"></div>
+
+                    <div
+                    class="column is-4 has-text-centered"
+                    data-aos="fade-in"
+                    data-aos-easing="linear"   
+                >
+                    <i class="fas fa-stocking fa-3x"></i>
+                    <hr />
+                    <h2>
+                    To you and yours, Happy Holidays!
+                    </h2>
+                </div>
+
+                    </div>
+
+
+
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Services Content -->
+      <!-- Begin Work Content -->
+      <div class="section-dark my-work" id="past-years">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">The Ghost of Cookies Past</h1>
+            </div>
+            <div class="column is-2"></div>
+            <div class="column is-4">
+              <a href=guide2020.html>
+                <figure
+                  class="image is-5by3 work-item"
+                  style="background-image: url('media/2020_link.jpg');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-4">
+                <a href=guide2021.html>
+                <figure
+                  class="image is-5by3 work-item"
+                  style="background-image: url('media/2021_link.jpg');"
+                ></figure>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
+
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p class="white">
+        &copy; 2020-2022 Hazel Boyas-Draucker. Based on 
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>-licensed source code by <a href="http://jgthms.com">Jeremy Thomas</a>. 
+      </p>
+    </div>
+    <!-- End Footer -->
+
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/showcase.js"></script>
@@ -24,458 +341,5 @@
         duration: 800,
       });
     </script>
-    <script
-      src="https://kit.fontawesome.com/2828f7885a.js"
-      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/snow.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <style type="text/css">
-        html,
-        body {
-            font-family: 'Open Sans';
-        }
-
-        img {
-            padding: 5px;
-            border: 1px solid #ccc;
-        }
-    </style>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/snow.js"></script>
-</head>
-
-
-<body >
-
-    <div id = "loading-div">
-        <canvas id="snow-transition" class="snow" ></canvas>
-
-        <div id="body-home" class="hero-body">
-            <div class="container has-text-centered">
-              <div align="center" style="padding-top:350px;" class="fond">
-
-            		<div class="contener_home_one">
-            			<div class="fireplace">&nbsp;</div>
-            			<div class="fireplace_top">&nbsp;</div>
-            			<div class="triangle">&nbsp;</div>
-            			<div class="parallelogram">&nbsp;</div>
-            			<div class="door">&nbsp;</div>
-            			<div class="window_one">&nbsp;</div>
-            			<div class="window_two">&nbsp;</div>
-            			<div class="home_base">&nbsp;</div>
-            			<div class="christmas_tree"></div>
-            			<div class="christmas_tree" style="left:-140px;"></div>
-            			<div class="mountain_one"><div class="sub_mountain_one">&nbsp;</div></div>
-            			<div class="mountain_two"><div class="sub_mountain_two">&nbsp;</div></div>
-            			<div class="lutz">
-            				<div class="lutin_pom">&nbsp;</div>
-            				<div class="lutin_top">&nbsp;</div>
-            				<div class="lutin_head">&nbsp;</div>
-            				<div class="lutin_arm1">&nbsp;</div>
-            				<div class="lutin_arm2">&nbsp;</div>
-            				<div class="lutin_body">&nbsp;</div>
-            				<div class="lutin_jb1">&nbsp;</div>
-            				<div class="lutin_jb2">&nbsp;</div>
-            			</div>
-            		</div>
-            		<div class="contener_snow">
-            			<div class="snowflakes">
-            			    <div class="snowflake">&nbsp;</div>
-            			    <div class="snowflake">&nbsp;</div>
-            			    <div class="snowflake">&nbsp;</div>
-            			    <div class="snowflake">&nbsp;</div>
-            			    <div class="snowflake">&nbsp;</div>
-            			    <div class="snowflake">&nbsp;</div>
-            			    <div class="snowflake">&nbsp;</div>
-            			    <div class="snowflake">&nbsp;</div>
-            			</div>
-            		</div>
-
-              	<div style=" width:500px;height:9px; background-color:#ffffff; border-radius:5px;">&nbsp;</div>
-
-
-
-
-                  <div id="progress-parent" class="progress-mgb">
-                  <div id="progress-child" ></div>
-                </div>
-
-              </div>
-
-
-            </div>
-        </div>
-
-
-
-        </div>
-    </div>
-
-    <div id = "main-div">
-            <!-- Begin Scroll Up Button -->
-
-    <form action="#home">
-        <button id="toTop" title="Go to top">
-          <i class="fas fa-angle-up"></i>
-        </button>
-      </form>
-      <!-- End Scroll Up Button -->
-  
-      <!-- Begin Header -->
-      <div class="header-wrapper" id="home">
-        <!-- Begin Hero -->
-        <section class="hero is-large">
-          <!-- Begin Mobile Nav -->
-          <nav class="navbar is-transparent is-hidden-desktop">
-            <!-- Begin Burger Menu -->
-            <div class="navbar-brand">
-              <div class="navbar-burger burger" data-target="mobile-nav">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-            <!-- End Burger Menu -->
-            <div id="mobile-nav" class="navbar-menu">
-              <div class="navbar-end">
-                <div class="navbar-item">
-                  <a class="navbar-item" href="#home">
-                    Home
-                  </a>
-                </div>
-                <div class="navbar-item">
-                  <a class="navbar-item" href="#about-me">
-                    The Confections
-                  </a>
-                </div>
-                <div class="navbar-item">
-                  <a class="navbar-item" href="#statistics">
-                    Statistics
-                  </a>
-                </div>
-                <div class="navbar-item">
-                  <a class="navbar-item" href="#past-years">
-                    Past Years
-                  </a>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <!-- End Mobile Nav -->
-          <!-- Begin Hero Content-->
-          <div class="hero-body">
-            <div class="container has-text-centered" style="margin-left: 33%;">
-              <!-- <h1 class="subtitle">Happy Holidays! I'm</h1> -->
-              <h2 class="title">Hazel's Confections</h2>
-              <h1 class="subtitle">Happy Holidays &#10054; 2022</h1>  
-              <!-- can use profession class if you want to make it caps -->    
-            </div>
-          </div>
-          <!-- End Hero Content-->
-          <!-- Begin Hero Menu -->
-          <div class="hero-foot ">
-            <div class="hero-foot--wrapper">
-              <div class="columns">
-                <div class="column is-12 hero-menu-desktop has-text-centered">
-                  <ul>
-                    <li class="is-active">
-                      <a href="#home">Home</a>
-                    </li>
-                    <li>
-                      <a href="#about-me">The Confections</a>
-                    </li>
-                    <li>
-                      <a href="#statistics">Statistics</a>
-                    </li>
-                    <li>
-                      <a href="#past-years">Past Years</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Hero Menu -->
-        </section>
-        <!-- End Hero -->
-      </div>
-      <!-- End Header -->
-  
-      <!-- Begin Main Content -->
-      <div class="main-content">
-        <!-- Begin About Me Section -->
-        <div class="section-light about-me" id="about-me">
-          <div class="container">
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">The Confections</h1>
-  
-              <h2 class="subtitle has-text-centered">This year, you have one of two holiday loaf options.</h2>
-              <br />
-            </div>
-            <div class="columns is-multiline">
-              <!-- FIRST ITEM -->
-              <div
-                class="column is-6 has-vertically-aligned-content"
-                data-aos="fade-right"
-              >
-                <p class="is-larger">
-                  <strong>Rich Holiday Fruitcake</strong>
-                </p>
-                <br />
-                <p>
-                  Showcase was built from the ground up with Bulma to be fast and
-                  responsive out of the box with all source files well documented
-                  for easy to customization. The Showcase template gives you a
-                  personal space to share what you are all about as a creative
-                  designer, developer, photographer, and more!
-                </p>
-                <br />
-                <div class="is-divider"></div>
-                <div class="columns about-links">
-                  <div class="column">
-                    <p class="heading">
-                      <strong>Give me a ring</strong>
-                    </p>
-                    <p class="subheading">
-                      123-456-7890
-                    </p>
-                  </div>
-                  <div class="column">
-                    <p class="heading">
-                      <strong>Email Me</strong>
-                    </p>
-                    <p class="subheading">
-                      hello@example.com
-                    </p>
-                  </div>
-                  <div class="column">
-                    <p class="heading">
-                      <strong>View my portfolio</strong>
-                    </p>
-                    <p class="subheading">
-                      example.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="column is-6 right-image " data-aos="fade-left">
-                <img
-                  class="is-rounded"
-                  src="https://picsum.photos/id/366/600/375"
-                  alt=""
-                />
-              </div>
-  
-              <!-- SECOND ITEM -->
-              <div class="column is-6 left-image " data-aos="fade-right">
-                  <img
-                    class="is-rounded"
-                    src="https://picsum.photos/id/366/600/375"
-                    alt=""
-                  />
-                </div>
-  
-              <div
-                  class="column is-6 has-vertically-aligned-content"
-                  data-aos="fade-left"
-                >
-                  <p class="is-larger">
-                    <strong>Rich Holiday Fruitcake</strong>
-                  </p>
-                  <br />
-                  <p>
-                    Showcase was built from the ground up with Bulma to be fast and
-                    responsive out of the box with all source files well documented
-                    for easy to customization. The Showcase template gives you a
-                    personal space to share what you are all about as a creative
-                    designer, developer, photographer, and more!
-                  </p>
-                  <br />
-                  <div class="is-divider"></div>
-                  <div class="columns about-links">
-                    <div class="column">
-                      <p class="heading">
-                        <strong>Give me a ring</strong>
-                      </p>
-                      <p class="subheading">
-                        123-456-7890
-                      </p>
-                    </div>
-                    <div class="column">
-                      <p class="heading">
-                        <strong>Email Me</strong>
-                      </p>
-                      <p class="subheading">
-                        hello@example.com
-                      </p>
-                    </div>
-                    <div class="column">
-                      <p class="heading">
-                        <strong>View my portfolio</strong>
-                      </p>
-                      <p class="subheading">
-                        example.com
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                
-              
-              </div>
-            </div>
-          </div>
-  
-        <!-- End About Me Content -->
-   
-        <!-- Begin Services Content -->
-        <div class="section-color services" id="statistics">
-          <div class="container">
-            <div class="columns is-multiline">
-              <div
-                class="column is-12 about-me"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-                <h1 class="title has-text-centered section-title">Statistics</h1>
-  
-                <br />
-              </div>
-              <div class="columns is-12">
-                <div
-                  class="column is-4 has-text-centered"
-                  data-aos="fade-in"
-                  data-aos-easing="linear"
-                >
-                  <i class="fad fa-meteor fa-3x"></i>
-                  <hr />
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  </h2>
-                </div>
-                <div
-                  class="column is-4 has-text-centered"
-                  data-aos="fade-in"
-                  data-aos-easing="linear"
-                >
-                  <i class="fas fa-paint-brush fa-3x"></i>
-                  <hr />
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  </h2>
-                </div>
-                <div
-                  class="column is-4 has-text-centered"
-                  data-aos="fade-in"
-                  data-aos-easing="linear"
-                >
-                  <i class="fas fa-rocket fa-3x"></i>
-                  <hr />
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  </h2>
-                </div>
-              </div>
-              <hr />
-              <div class="columns is-12">
-                <div
-                  class="column is-4 has-text-centered"
-                  data-aos="fade-in"
-                  data-aos-easing="linear"
-                >
-                  <i class="fas fa-upload fa-3x"></i>
-                  <hr />
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  </h2>
-                </div>
-                <div
-                  class="column is-4 has-text-centered"
-                  data-aos="fade-in"
-                  data-aos-easing="linear"
-                >
-                  <i class="fas fa-bus fa-3x"></i>
-                  <hr />
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  </h2>
-                </div>
-                <div
-                  class="column is-4 has-text-centered"
-                  data-aos="fade-in"
-                  data-aos-easing="linear"
-                >
-                  <i class="fas fa-code fa-3x"></i>
-                  <hr />
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Services Content -->
-        <!-- Begin Work Content -->
-        <div class="section-dark my-work" id="past-years">
-          <div class="container">
-            <div
-              class="columns is-multiline"
-              data-aos="fade-in"
-              data-aos-easing="linear"
-            >
-              <div class="column is-12">
-                <h1 class="title has-text-centered section-title">The Ghost of Cookies Past</h1>
-              </div>
-              <div class="column is-2"></div>
-              <div class="column is-4">
-                <a href=guide2020.html>
-                  <figure
-                    class="image is-5by3 work-item"
-                    style="background-image: url('media/2020_link.jpg');"
-                  ></figure>
-                </a>
-              </div>
-              <div class="column is-4">
-                  <a href=guide2021.html>
-                  <figure
-                    class="image is-5by3 work-item"
-                    style="background-image: url('media/2021_link.jpg');"
-                  ></figure>
-                </a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <!-- End Work Content -->
-  
-      </div>
-      <!-- End Main Content -->
-  
-      <!-- Begin Footer -->
-      <div class="footer">
-        <p>
-          <strong class="white">Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
-          The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
-      </div>
-      <!-- End Footer -->
-
-
-</div>
-</body>
-
-
+  </body>
 </html>
