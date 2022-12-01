@@ -5,7 +5,8 @@ progress_bar_animate = function(){
 								snowstorm();
 								$("#body-home").fadeOut(5000).promise().done(function() {
 									$("#body-home").hide().delay(1000).promise().done(function() {
-									  window.location.pathname = '/guide.html'
+                    $("#loading-div").fadeOut();
+                    $("#main-div").fadeIn();
 										});
 									});
 
@@ -143,7 +144,8 @@ $( document ).ready(function() {
 
 		$('video').on('ended',function(){
 			$("#body-video").fadeOut(1000).delay(1000).promise().done(function() {
-			  window.location.pathname = 'Users/mboyas/Downloads/cookies/guide.html'
+        $("#loading-div").fadeOut();
+        $("#main").fadeIn();
 			});
 
     });
