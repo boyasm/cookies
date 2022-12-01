@@ -32,7 +32,7 @@ html {
 .hero .title {
   font-family: 'Kaushan Script', sans-serif;
   transform: rotate(-5deg);
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #B82519;
 }
 
@@ -58,6 +58,7 @@ html {
     display: none;
   }
 }
+
 
 .hero .hero-foot .hero-foot--wrapper {
   margin: 7px auto;
