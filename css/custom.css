@@ -24,3 +24,8 @@
 	margin: 20px;
 	box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
   }
+
+  .button.non-interactive {
+    pointer-events: none;  /* Imitate the behavior of is-static class */
+    box-shadow: none;  /* Optional, it might be useful in cases where the button is in a container with a box-shadow */
+}
